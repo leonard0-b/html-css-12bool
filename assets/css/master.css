@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  border: 1px solid black;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.container {
+  background-color: #ffc0cb;
+}
+
+.container.nested {
+  border: 2px solid #ffc0cb;
+}
+
+[class*="col-"].nested {
+  border: 2px solid #ffc0cb;
+  background-color: #f07f80;
+  height: 192px;
+}
