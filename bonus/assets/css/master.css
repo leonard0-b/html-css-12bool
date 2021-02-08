@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.pink {
+  background-color: #FFC9DF;
+  height: 50px;
+}
+
+.black {
+  background-color: black;
+  height: 50px;
+}
+
+.blue {
+  background-color: #418CF5;
+  height: 50px;
+}
+
+.col-1 {
+  height: 50px;
+  border: 1px solid black;
+}
