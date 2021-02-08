@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+[class*="col-"] {
+  border: 1px solid black;;
+}
+
+
 .row:after {
   content: '';
   clear: both;
@@ -22,6 +27,11 @@
 
 .blue {
   background-color: #418CF5;
+  height: 50px;
+}
+
+.lightblue {
+  background-color: #82B6FF;
   height: 50px;
 }
 
